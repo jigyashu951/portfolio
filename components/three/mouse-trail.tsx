@@ -24,7 +24,7 @@ export function MouseTrail({
   const canvasRef = useRef<HTMLCanvasElement>(null)
   const pointsRef = useRef<Point[]>([])
   const mouseRef = useRef({ x: 0, y: 0, prevX: 0, prevY: 0 })
-  const animationRef = useRef<number>()
+  const animationRef = useRef<number>(0)
 
   useEffect(() => {
     const canvas = canvasRef.current

@@ -202,9 +202,9 @@ export default function ContactPage() {
                         className="w-full h-10 px-3 rounded-md bg-card border border-border text-foreground focus:outline-none focus:ring-2 focus:ring-ring"
                       >
                         <option value="">Select a service</option>
-                        <option value="web">Web Design</option>
-                        <option value="motion">Poster Design</option>
-                        <option value="creative">Photoshop Editing</option>
+                        <option value="web-design">Web Design</option>
+                        <option value="poster-design">Poster Design</option>
+                        <option value="photoshop">Photoshop Editing</option>
                         <option value="other">Other</option>
                       </select>
                     </div>
@@ -221,10 +221,10 @@ export default function ContactPage() {
                         className="w-full h-10 px-3 rounded-md bg-card border border-border text-foreground focus:outline-none focus:ring-2 focus:ring-ring"
                       >
                         <option value="">Select a budget range</option>
-                        <option value="10k-25k">$0 - $100</option>
-                        <option value="25k-50k">$100 - $500</option>
-                        <option value="50k-100k">$500 - $1000</option>
-                        <option value="100k+">$1000+</option>
+                        <option value="0-100">$0 - $100</option>
+                        <option value="100-500">$100 - $500</option>
+                        <option value="500-1000">$500 - $1000</option>
+                        <option value="1000+">$1000+</option>
                       </select>
                     </div>
                     <div>

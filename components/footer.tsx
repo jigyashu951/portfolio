@@ -62,7 +62,7 @@ export function Footer() {
               VEXTRA
             </Link>
             <p className="mt-4 text-muted-foreground max-w-md leading-relaxed">
-              We don't just design
+              We don&apos;t just design
               <br />
               we translate your boldest ideas into visual realities.
             </p>

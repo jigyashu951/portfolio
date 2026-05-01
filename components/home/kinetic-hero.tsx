@@ -135,7 +135,7 @@ export function KineticHero() {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
           }`}
         >
-          We don't just design
+          We don&apos;t just design
           <br />
           we translate your boldest ideas into visual realities.
         </p>
